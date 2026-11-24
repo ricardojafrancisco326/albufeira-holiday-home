@@ -44,7 +44,7 @@ const caracteristicas = [
   {
     icon: BedDouble,
     titulo: "2 quartos",
-    descricao: "Apartamento T2",
+    descricao: "Vivenda T2",
   },
   {
     icon: Users,
@@ -312,7 +312,7 @@ export default function Home() {
       >
         <Image
           src="/imagens/1.JPG"
-          alt="Albufeira Holiday Home, apartamento de férias no Algarve"
+          alt="Albufeira Holiday Home, vivenda de férias no Algarve"
           fill
           sizes="100vw"
           loading="eager"
@@ -341,7 +341,7 @@ export default function Home() {
 
             <p className="mb-10 max-w-xl text-lg leading-8 text-white/85">
               Desfrute de dias inesquecíveis em Albufeira,
-              num apartamento T2 acolhedor, ideal para
+              numa vivenda T2 acolhedor, ideal para
               famílias e amigos, perto do centro da cidade.
             </p>
 
@@ -411,7 +411,7 @@ export default function Home() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-xl">
               <Image
                 src="/imagens/2.JPG"
-                alt="Interior do apartamento Albufeira Holiday Home"
+                alt="Interior da Vivenda Albufeira Holiday Home"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -440,7 +440,7 @@ export default function Home() {
             </h2>
 
             <p className="mb-5 leading-8 text-slate-600">
-              O Albufeira Holiday Home é um apartamento
+              O Albufeira Holiday Home é uma Vivenda
               T2 situado em Albufeira, no coração do Algarve.
               Com capacidade até 6 pessoas, é uma opção
               para desfrutar de férias em família ou
@@ -456,7 +456,7 @@ export default function Home() {
 
             <div className="mb-9 grid gap-4 sm:grid-cols-2">
               {[
-                "Apartamento T2",
+                "Vivenda T2",
                 "Capacidade até 6 pessoas",
                 "Cozinha equipada",
                 "Perto do centro",
@@ -509,7 +509,7 @@ export default function Home() {
               {
                 icon: BedDouble,
                 titulo: "Dois quartos",
-                texto: "Apartamento T2 para uma estadia confortável.",
+                texto: "Vivenda T2 para uma estadia confortável.",
               },
               {
                 icon: Users,
@@ -569,7 +569,7 @@ export default function Home() {
               </h2>
 
               <p className="mt-5 max-w-xl leading-7 text-slate-500">
-                Explore as fotografias do apartamento
+                Explore as fotografias da vivenda
                 e descubra o espaço onde poderá passar
                 as suas próximas férias.
               </p>

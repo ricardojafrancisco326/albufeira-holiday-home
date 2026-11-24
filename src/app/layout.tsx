@@ -12,33 +12,41 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
   title: {
-    default: "Albufeira Holiday Home | Apartamento T2 no Algarve",
+    default: "Albufeira Holiday Home | Vivenda T2 no Algarve",
     template: "%s | Albufeira Holiday Home",
   },
   description:
-    "Apartamento T2 para férias em Albufeira, Algarve. Capacidade até 6 pessoas, cozinha equipada e localização a cerca de 5 minutos a pé do centro. Consulte informações e disponibilidade.",
+    "Vivenda T2 para férias em Albufeira, Algarve. Capacidade até 6 pessoas, cozinha equipada e localização a cerca de 5 minutos a pé do centro. Consulte informações e disponibilidade.",
   keywords: [
     "Albufeira Holiday Home",
-    "apartamento férias Albufeira",
+    "vivenda férias Albufeira",
     "arrendamento férias Algarve",
-    "apartamento T2 Albufeira",
+    "vivenda T2 Albufeira",
+    "casa de férias Albufeira",
     "alojamento Albufeira",
+    "moradia de férias Algarve",
   ],
   openGraph: {
-    title: "Albufeira Holiday Home",
+    title: "Albufeira Holiday Home | Vivenda de Férias",
     description:
-      "Descubra o seu próximo destino de férias em Albufeira. Apartamento T2 para até 6 pessoas.",
+      "Descubra o seu próximo destino de férias em Albufeira. Vivenda T2 para até 6 pessoas.",
     locale: "pt_PT",
     type: "website",
     siteName: "Albufeira Holiday Home",
+    url: "https://albufeira-holiday-home.vercel.app",
+  },
+  alternates: {
+    canonical: "https://albufeira-holiday-home.vercel.app",
   },
   robots: {
     index: true,
     follow: true,
   },
 };
+
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
